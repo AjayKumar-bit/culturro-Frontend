@@ -1,0 +1,32 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; /* 100% of the viewport height */
+}
+
+.loginform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rosybrown;
+  border-radius: 2%;
+}
+.input{
+  border-radius: 8%;
+
+}
+.password{
+    border-radius: 8%;
+  
+  }
+  .button{
+    border-radius: 8%;
+  
+  }
